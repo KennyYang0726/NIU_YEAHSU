@@ -1,0 +1,20 @@
+<dependencies>
+  <compile
+      roots="D:\UnityProject\NIU_YEAHSU\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="D:\UnityProject\NIU_YEAHSU\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="D:\UnityProject\NIU_YEAHSU\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:D:\UnityProject\NIU_YEAHSU\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:MoverioControllerFunctionSDKPlugin:@aar,:ControllerFunctionSDK:@aar">
+    <dependency
+        name="D:\UnityProject\NIU_YEAHSU\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:D:\UnityProject\NIU_YEAHSU\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name=":MoverioControllerFunctionSDKPlugin:@aar"/>
+    <dependency
+        name=":ControllerFunctionSDK:@aar"/>
+  </package>
+</dependencies>

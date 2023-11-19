@@ -1,0 +1,40 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "MoverioControllerFunctionSDKPlugin"
+  }
+  digests {
+    sha256: "\316+r\375\375\365\216\234\247\030-\350\241X\0376\036\'*\277\225\3360a\036\301\331;\231\350)\217"
+  }
+}
+library {
+  maven_library {
+    artifactId: "ControllerFunctionSDK"
+  }
+  digests {
+    sha256: "\016%73.\364\t\273!\377\230S\264\006u._\360\214Q\032\026n\343\227\321\3005j\322\204\254"
+  }
+}
+library {
+  digests {
+    sha256: "G\352\303\340\312v\214\371\\\tNQ\354x\334cv\217\366W\233D\202\205\367{\227\376\"\220e\232"
+  }
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 0
+  dependency_index: 1
+  dependency_index: 2
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
+  }
+}
